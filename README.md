@@ -82,21 +82,6 @@ The code uses Python, Jupyter, NumPy, pandas, Matplotlib, PyTorch,
 scikit-learn, statsmodels, `arch`, XGBoost and tqdm. Run `main.ipynb` from the
 repository root; the diagnostic notebooks use paths relative to `Data/`.
 
-## Current status and limitations
-
-This repository preserves exploratory research code. It is not yet a validated
-one-command benchmark: some notebook cells contain incomplete assignments or
-calls that do not match the current helper signatures. Some paths also use
-`DATA/` instead of `Data/`.
-
-Before reporting a model ranking, the experiments need a consistent audit of
-forecast horizons, time alignment, feature scaling, volatility units and loss
-implementations. Feature screening should be restricted to training data in a
-strict out-of-sample evaluation. Multiple testing, the short observation period
-and sensitivity to initialization also limit interpretation.
-
-The project studies volatility prediction. It does not establish the
-profitability of a trading strategy.
 
 ## Attribution
 
